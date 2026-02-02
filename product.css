@@ -1,0 +1,339 @@
+.header-wrapper {
+    background: url("images/about-banner.png");
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    min-height: 100vh;
+}
+
+    
+.header-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.header-wrapper > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* pre-header */
+
+
+.pre-header {
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+
+.social-icon {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+
+   /* header  */
+.main-header {
+    transition: background 0.3s ease;
+    padding: 6px 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.main-header.sticky{
+    background-color: grey;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin: 0 8px;
+    font-size: 24px;
+}
+
+.navbar .nav-link:hover {
+    color: #0dcaf0;
+}
+
+
+
+
+.pharma-about-banner {
+  /* background: url("images/about-banner.jpg"); */
+  padding: 120px 0;
+  color: #fff;
+  position: relative;
+}
+
+.pharma-about-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* background: rgba(0,0,0,0.6); */
+}
+
+.pharma-about-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.pharma-about-banner h1 {
+    margin-top: 70px;
+  font-size: 140px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+/* product-main-section */
+
+
+.products-section {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.section-tag {
+    font-size: 30px;
+    color: #157649;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+
+
+.product-category {
+    background: #111;
+    color: #fff;
+    padding: 25px;
+}
+
+
+.product-category h5 {
+    margin-bottom: 20px;
+}
+
+
+.product-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.product-category li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+
+.product-category li:last-child {
+    border-bottom: none;
+}
+
+
+.sticky-box {
+    position: sticky;
+    top: 120px; 
+}
+
+
+.product-card {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+.product-card h6 {
+    font-weight: 600;
+}
+
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.product-card a {
+    font-size: 14px;
+    color:#157649;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pharma-footer {
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* TOP FOOTER */
+.pharma-footer-top {
+  padding: 80px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.pf-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.pf-text {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+}
+
+.pf-logo {
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+
+.pf-about {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* LINKS */
+.pf-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.pf-links a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.pf-links a:hover {
+  color: #198754;
+}
+
+/* GALLERY */
+.pf-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pf-gallery img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+
+
+.pf-newsletter {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pf-newsletter input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #444;
+  color: #fff;
+}
+
+.pf-newsletter button {
+  padding: 10px 18px;
+  border: none;
+  background: #198754;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.pf-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pf-social a {
+  width: 36px;
+  height: 36px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.pharma-footer-bottom {
+  padding: 20px 0;
+}
+
+.pf-copy {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0;
+}
+
+.pharma-footer-bottom a {
+  color: #aaa;
+  margin-left: 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.pharma-footer-bottom a:hover {
+  color: #fff;
+}
+
+.pharma-footer .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
