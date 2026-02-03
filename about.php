@@ -35,7 +35,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="css/about.css" />
   </head>
 
   <body>
@@ -85,13 +85,13 @@
 
           <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="product.html">Our Products</a>
+                <a class="nav-link" href="product.php">Our Products</a>
               </li>
               <!-- <li class="nav-item"><a class="nav-link" href="#">Blog</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
             </ul>
 
             <a href="#" class="btn btn-outline-light ms-lg-3">

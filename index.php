@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -35,7 +40,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -85,19 +90,33 @@
 
           <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="product.html">Our Products</a>
+                <a class="nav-link" href="product.php">Our Products</a>
               </li>
               <!-- <li class="nav-item"><a class="nav-link" href="#">Blog</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
             </ul>
 
-            <a href="#" class="btn btn-outline-light ms-lg-3">
-              <i class="fa fa-user"></i>
-              User Login
-            </a>
+          <?php if (isset($_SESSION['user_id'])): ?>
+
+  <div class="dropdown">
+    <button class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">
+      Hi, <?php echo $_SESSION['user_name']; ?>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="dashboard.php">Dashboard</a></li>
+      <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+    </ul>
+  </div>
+
+<?php else: ?>
+
+  <a href="login.php" class="btn btn-outline-light">User Login</a>
+
+<?php endif; ?>
+
           </div>
         </div>
       </nav>
@@ -124,6 +143,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- about-home-section -->
 
@@ -634,3 +654,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
+
+
+

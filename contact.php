@@ -35,7 +35,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
 
   <body>
@@ -85,17 +85,17 @@
 
           <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="product.html">Our Products</a>
+                <a class="nav-link" href="product.php">Our Products</a>
               </li>
               <!-- <li class="nav-item"><a class="nav-link" href="#">Blog</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
             </ul>
-
+             
             <a href="#" class="btn btn-outline-light ms-lg-3">
-                <i class="fa fa-user"></i>
+              <i class="fa fa-user"></i>
               User Login
             </a>
           </div>
@@ -104,156 +104,90 @@
 
       <section class="pharma-about-banner">
   <div class="container">
-    <h1>Our Products</h1>
+    <h1>Contact Us</h1>
     <p>Trusted Pharmaceutical B2B Partner</p>
   </div>
 </section>
       </div>
 
 
-       <section class="products-section">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <div>
-            <span class="section-tag">● Our Products</span>
-            <!-- <h2 class="section-title">Discover Our Recommended Products</h2> -->
+
+
+
+      <section class="pharma-contact-section py-5">
+  <div class="container">
+    <div class="row g-4 align-items-stretch">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6">
+        <p class="pharma-contact-tag">● Contact Us</p>
+
+        <h2 class="pharma-contact-heading">
+          Contact Us for Guidance,<br>
+          Support, and Solutions
+        </h2>
+
+        <p class="pharma-contact-text">
+          Reach out to us for product inquiries, bulk orders, partnerships,
+          or any assistance related to pharmaceutical sourcing.
+        </p>
+
+        <div class="pharma-contact-info">
+          <div class="info-block">
+            <h6>Address</h6>
+            <p>HRN Tech Solutions , C-84, C Block, Sector 2, Noida, Uttar Pradesh 201301</p>
           </div>
-          <!-- <a href="#" class="btn btn-success">More Products</a> -->
+
+          <div class="info-block">
+            <h6>Contact Info</h6>
+            <p>📞 +919876543210</p>
+            <p>✉️ info@sup.com</p>
+          </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="product-category sticky-box">
-              <h5>Product Category</h5>
-              <ul>
-                <li>Cleanroom Furniture</li>
-                <li>Air System</li>
-                <li>Safety Equipment</li>
-                <li>Cleanroom Consumables</li>
-                <li>Equipment & Instruments</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-9">
-            <div class="row g-4">
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/first.png" alt="" />
-                  <h6>Xerosera-SP</h6>
-                  <p>
-                    Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase
-                  </p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/second.png" alt="" />
-                  <h6>Buromont-LC</h6>
-                  <p>
-                    Montelukast Sodium and Levocetirizine Hydrochloride Tablets
-                    IP
-                  </p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/third.png" alt="" />
-                  <h6>RHYZAL-DSR</h6>
-                  <p>Rabeprazole Sodium and Domperidone (SR) CAPSULES</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/fourth.png" alt="" />
-                  <h6>AUGIBRI-CV 625</h6>
-                  <p>Amoxycillin and Potassium Clavulanate Tablets IP</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/fifth.png" alt="" />
-                  <h6>Pantobre-DSR</h6>
-                  <p>
-                    Pantoprazole Gastro-Resistant and Domperidone
-                    Prolonge-Release Capsules IP
-                  </p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="product-card">
-                  <img src="images/sixth.png" alt="" />
-                  <h6>Brisef-200</h6>
-                  <p>Cefixime Tablets I.P. 200mg</p>
-                  <a href="#">Detail Product →</a>
-                </div>
-              </div>
-              
-              
-            </div>
-          </div>
+        <div class="pharma-contact-social">
+          <span>Find Us On:</span>
+          <a href="#">f</a>
+          <a href="#">i</a>
+          <a href="#">t</a>
+          <a href="#">y</a>
         </div>
       </div>
-    </section>
+
+      <!-- RIGHT FORM -->
+      <div class="col-lg-6">
+        <div class="pharma-contact-form">
+          <h4>Let’s talk, send us a message today!</h4>
+
+          <form>
+            <input type="text" placeholder="Name" required>
+
+            <div class="form-row">
+              <input type="email" placeholder="Email" required>
+              <input type="tel" placeholder="Phone">
+            </div>
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="4" placeholder="Message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="pharma-map-section">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5395938245015!2d77.31253107554082!3d28.583584975691462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51ee5d79db7%3A0x685544a078523ffb!2sHRN%20Tech%20Solutions!5e0!3m2!1sen!2sin!4v1769960977977!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
 
 
@@ -265,20 +199,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <!-- footer  -->
+         <!-- footer  -->
 
       <footer class="pharma-footer">
 

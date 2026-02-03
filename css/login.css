@@ -1,0 +1,38 @@
+.pharma-login-section {
+  min-height: 100vh;
+  background: #f5f7f6;
+  display: flex;
+  align-items: center;
+}
+
+.pharma-login-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.pharma-login-box h3 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.pharma-login-box label {
+  font-weight: 500;
+}
+
+.login-links {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-links a {
+  color: #0a7d5c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-links span {
+  margin: 0 8px;
+  color: #aaa;
+}
